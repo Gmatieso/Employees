@@ -1,7 +1,9 @@
 package com.gmatieso.ems.service;
 
-import com.gmatieso.ems.dto.EmployeeDtoResponse;
+import com.gmatieso.ems.dto.EmployeeRequest;
+
+import org.springframework.http.ResponseEntity;
 
 public interface EmployeeService {
-    EmployeeDtoResponse createEmployee(EmployeeDtoResponse employeeDtoResponse);
+    ResponseEntity<?> createEmployee(EmployeeRequest employeeRequest);
 }

@@ -1,4 +1,4 @@
 package com.gmatieso.ems.dto;
 
-public record EmployeeDtosRequest() {
+public record EmployeeRequest(String firstName, String lastName, String email) {
 }
